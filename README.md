@@ -1,4 +1,4 @@
-# goconf
+# GoConf
 GoConf is a JSON configure file loader for golang.  It supports multiple layers configure items and can get item value directly by path, etc '/Porject1/ModuleA/Item1'.  
 
 It is very simple for use.  You can install it by
