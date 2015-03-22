@@ -51,6 +51,6 @@ func ExampleConfigLoadAndGet() {
 	fmt.Println(itemIntArray)
 
 	// Output
-	// {{2 [1 2 3 4 5] 2 [1 2 3 4 5] /home/abc/httpd.conf [admin1 admin2] false} {{[abc@360.cn def@360.cn] [130123456789 150123456789]} [{127.0.0.1 0 9000} {127.0.0.2 0 9001} {127.0.0.3 0 9002}]}}
+	// {{2 [1 2 3 4 5] 2 [1 2 3 4 5] /home/abc/httpd.conf [admin1 admin2] false} {{[abc@test.com def@test.com] [130123456789 150123456789]} [{127.0.0.1 0 9000} {127.0.0.2 0 9001} {127.0.0.3 0 9002}]}}
 	// [1 2 3 4 5]
 }
