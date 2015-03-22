@@ -24,7 +24,7 @@
     "SubModule2":{
       // Object example
        "ItemObject":{
-        "email":["abc@360.cn", "def@360.cn"],
+        "email":["abc@test.com", "def@test.com"],
         "sms":["130123456789", "150123456789"]
       },
       "ItemObjectArray":[
