@@ -1,0 +1,42 @@
+/* Configure comment
+ */
+{
+  /* ModuleA comment
+   */
+  "ModuleA":{
+    /* SubModule1 comment
+     */
+    "SubModule1":{
+      // Int example
+      "itemInt":2,
+      "itemIntArray":[1, 2, 3, 4, 5],
+      // Float example
+      "itemFloat":2.01,
+      "itemFloatArray":[1.1, 2.1, 3.1, 4.1, 5.1],
+      // String example
+      "itemString":"/home/abc/httpd.conf",
+      "itemStringArray":["admin1", "admin2"],
+      // Bool example
+      "itemBool": true
+    },
+    /* SubModule2 comment
+     */ 
+    "SubModule2":{
+      // Object example
+       "ItemObject":{
+        "email":["abc@360.cn", "def@360.cn"],
+        "sms":["130123456789", "150123456789"]
+      },
+      "ItemObjectArray":[
+        {"Listen":"127.0.0.1","Port":9000},
+        {"Listen":"127.0.0.2","Port":9001},
+        {"Listen":"127.0.0.3","Port":9002}
+      ]
+    }
+  },
+  /* ModuleB comment
+   */
+  "ModuleB":{
+      // your configure items
+  }
+}
